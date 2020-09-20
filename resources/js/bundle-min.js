@@ -1,0 +1,1 @@
+const NEWSLETTER={register:function(){let e={name:document.getElementById("newsletter-name").value,email:document.getElementById("newsletter-email").value};console.log(e)},attachButton:function(){document.getElementById("newsletter-btn").addEventListener("click",(function(){NEWSLETTER.register()}))}};NEWSLETTER.attachButton();
