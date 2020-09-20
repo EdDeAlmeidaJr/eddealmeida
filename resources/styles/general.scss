@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Allan&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Allan&display=swap");
 
 $vermelho: #da251d;
 $fundo: #fce9e8;
@@ -71,11 +71,31 @@ div.card {
     }
 }
 
+div.language-card {
+    padding: 1rem;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    h5 {
+        font-family: Allan, cursive;
+        font-size: 1.8rem;
+    }
+}
+
 ul {
     margin: 1rem;
     padding: 0rem;
     li {
         list-style-type: none;
+        h5 {
+            font-family: Allan, cursive;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        p {
+            text-align: justify;
+            font-style: italic;
+        }
     }
 }
 
@@ -87,4 +107,8 @@ a {
 a:hover {
     color: $cinza;
     text-decoration: none;
+}
+
+.centered {
+    text-align: center;
 }

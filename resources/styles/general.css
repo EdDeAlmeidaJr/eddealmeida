@@ -61,12 +61,32 @@ div.card div.card-body {
   padding: 0px;
 }
 
+div.language-card {
+  padding: 1rem;
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+div.language-card h5 {
+  font-family: Allan, cursive;
+  font-size: 1.8rem;
+}
+
 ul {
   margin: 1rem;
   padding: 0rem;
 }
 ul li {
   list-style-type: none;
+}
+ul li h5 {
+  font-family: Allan, cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+ul li p {
+  text-align: justify;
+  font-style: italic;
 }
 
 a {
@@ -77,6 +97,10 @@ a {
 a:hover {
   color: #666;
   text-decoration: none;
+}
+
+.centered {
+  text-align: center;
 }
 
 /*# sourceMappingURL=general.css.map */
