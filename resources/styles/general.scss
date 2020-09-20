@@ -43,11 +43,17 @@ body {
     margin: 1rem 0rem 0rem 0rem;
 }
 
+.margined-envelope {
+    background-color: $fundo;
+    margin: 1rem;
+}
+
 div.card {
     border: 1px solid $vermelho;
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
     border-radius: 1px;
+    margin-bottom: 2rem;
     div.card-header {
         font-family: Allan, cursive;
         font-size: 1.8rem;

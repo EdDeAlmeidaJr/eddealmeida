@@ -33,11 +33,17 @@ body div.container-fluid div.row div.header h2 {
   margin: 1rem 0rem 0rem 0rem;
 }
 
+.margined-envelope {
+  background-color: #fce9e8;
+  margin: 1rem;
+}
+
 div.card {
   border: 1px solid #da251d;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
   border-radius: 1px;
+  margin-bottom: 2rem;
 }
 div.card div.card-header {
   font-family: Allan, cursive;
