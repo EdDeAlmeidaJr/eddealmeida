@@ -1,0 +1,57 @@
+/* Importações otimizadas em uma única linha */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Imperial+Script&family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* Adicionado para melhor controle de layout */
+}
+
+body {
+  background-color: darkgreen;
+  font-family:
+    "Roboto", sans-serif; /* Define Roboto como padrão para o corpo */
+}
+
+.content-area {
+  width: 80%;
+  margin: auto;
+  background-color: beige;
+  color: black;
+}
+
+.content-header {
+  display: flex;
+  align-items: center;
+  min-height: 13rem;
+  background-color: bisque;
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+.islamic-flag {
+  width: 35%;
+  min-height: 13rem;
+  background-image: url("/assets/imgs/AllahuAkbar.png");
+  background-size: cover;
+}
+
+.me {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-family: "Imperial Script", cursive;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.title {
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
