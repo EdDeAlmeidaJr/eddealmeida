@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Imperial+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-/* Reset e Box Model */
 * {
   padding: 0;
   margin: 0;
@@ -12,7 +11,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Estrutura Principal */
 .content-area {
   width: 80%;
   margin: auto;
@@ -25,7 +23,7 @@ body {
   align-items: center;
   min-height: 13rem;
   background-color: bisque;
-  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.7);
+  margin-bottom: 1rem;
 }
 
 /* Componentes do Header */
@@ -54,4 +52,79 @@ body {
   font-family: "EB Garamond", serif;
   font-weight: bold;
   font-size: 2rem;
+}
+
+.content-body {
+}
+
+.content-footer {
+  background-color: darkolivegreen;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.horizontal-list-nobullets {
+  margin-top: 1.5rem;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}
+
+.horizontal-list-nobullets li {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.box {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow:
+    0 2px 3px rgba(10, 10, 10, 0.1),
+    0 0 0 1px rgba(10, 10, 10, 0.1);
+  color: #4a4a4a;
+  display: block;
+  padding: 1.25rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  color: #4a4a4a;
+  max-width: 100%;
+  overflow: hidden;
+  border: 1px solid #dbdbdb;
+}
+
+.card-header {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-bottom: 1px solid #dbdbdb;
+  font-weight: bold;
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+.card-footer {
+  background-color: #fcfcfc;
+  padding: 0.75rem;
+  border-top: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: space-around;
+}
+
+.shadowed {
+  box-shadow: 0rem 0.5rem 0.5rem 0rem rgba(0, 0, 0, 0.7);
+}
+
+.rounded {
+  border-radius: 0.5rem;
 }
