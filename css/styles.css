@@ -9,6 +9,7 @@
 body {
   background-color: darkgreen;
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .content-area {
@@ -26,7 +27,6 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Componentes do Header */
 .islamic-flag {
   width: 35%;
   min-height: 13rem;
@@ -55,6 +55,7 @@ body {
 }
 
 .content-body {
+  padding: 1rem;
 }
 
 .content-footer {
@@ -64,19 +65,32 @@ body {
   text-align: center;
 }
 
+nav {
+  width: 100%;
+}
+
 .horizontal-list-nobullets {
   margin-top: 1.5rem;
   display: flex;
   list-style: none;
   width: 100%;
-  padding: 0;
 }
 
 .horizontal-list-nobullets li {
-  flex: 1;
+  flex: 1 1 0px;
   text-align: center;
+}
+
+.horizontal-list-nobullets li a {
+  display: block;
+  width: 100%;
   padding: 10px 0;
-  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.horizontal-list-nobullets li a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .box {
