@@ -25,8 +25,21 @@
 
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Imperial+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+      onerror="
+        this.onerror = null;
+        this.href = '/css/bulma.min.css';
+      "
+    />
     <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/css/button.css" />
   </head>
   <body>
     <div class="content-area">
@@ -37,41 +50,20 @@
           <p class="title">The Tech Dinosaur</p>
           <nav>
             <ul class="horizontal-list-nobullets">
-              <li><a href="#islam">Islam</a></li>
-              <li><a href="#books">Books</a></li>
-              <li><a href="#math">Math</a></li>
-              <li><a href="#programming">Programming</a></li>
-              <li><a href="#students-area">Students Area</a></li>
+              <li><a href="/index.html#islam">Islam</a></li>
+              <li><a href="/index.html#books">Books</a></li>
+              <li><a href="/index.html/#math">Math</a></li>
+              <li><a href="/index.html#programming">Programming</a></li>
+              <li><a href="/index.html#students-area">Students Area</a></li>
             </ul>
           </nav>
         </div>
       </header>
 
       <main class="content-body">
-        <section id="islam">
-          <h2>Islam</h2>
-          <p>Content related to Islamic studies and philosophy...</p>
-        </section>
-
-        <section id="books">
-          <h2>Books</h2>
-          <p>A collection of books and reading recommendations...</p>
-        </section>
-
-        <section id="math">
-          <h2>Math</h2>
-          <p>Mathematical concepts, articles, and problem-solving...</p>
-        </section>
-
-        <section id="programming">
-          <h2>Programming</h2>
-          <p>Insights into software development, coding, and technology...</p>
-        </section>
-
-        <section id="students-area">
-          <h2>Students Area</h2>
-          <p>Resources and materials for my students...</p>
-        </section>
+        <section id="fiction"></section>
+        <section id="philosophy"></section>
+        <section id="humor"></section>
       </main>
 
       <footer class="content-footer">

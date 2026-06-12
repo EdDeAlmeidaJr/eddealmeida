@@ -108,7 +108,7 @@ nav {
   font-family: "EB Garamond", serif;
   font-size: 1.4rem;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 
 .shadowed {
@@ -141,5 +141,5 @@ section {
 }
 
 .card-header {
-  background-color: cadetblue;
+  background-color: #195238;
 }
