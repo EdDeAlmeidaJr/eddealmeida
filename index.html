@@ -25,8 +25,21 @@
 
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Imperial+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+      onerror="
+        this.onerror = null;
+        this.href = '/css/bulma.min.css';
+      "
+    />
     <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/css/button.css" />
   </head>
   <body>
     <div class="content-area">
@@ -48,41 +61,138 @@
       </header>
 
       <main class="content-body">
-        <div class="section-title">Islam</div>
+        <div class="section-title rounded">Islam</div>
         <section id="islam">
-          <div class="box">
-            <iframe
-              id="iframe"
-              title="prayerWidget"
-              class="widget-m-top"
-              style="height: 358px; border: 1px solid #ddd"
-              scrolling="no"
-              src="https://www.islamicfinder.org/prayer-widget/3464975/shafi/1/0/18.0/17.0"
-            >
-            </iframe>
+          <div class="columns">
+            <div class="column is-one-third">
+              <div class="box">
+                <iframe
+                  id="iframe"
+                  title="prayerWidget"
+                  class="widget-m-top"
+                  style="height: 358px; border: 1px solid #ddd"
+                  scrolling="no"
+                  src="https://www.islamicfinder.org/prayer-widget/3464975/shafi/1/0/18.0/17.0"
+                >
+                </iframe>
+              </div>
+            </div>
+            <div class="column"></div>
           </div>
         </section>
 
-        <div class="section-title">Books</div>
+        <div class="section-title rounded">Books</div>
         <section id="books">
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
+          <div class="columns">
+            <div class="column">
+              <div class="card">
+                <div class="card-header">
+                  <div class="card-header-title">
+                    <span class="card-title-style">Fiction</span>
+                  </div>
+                </div>
+                <div class="card-content">Conteúdo sobre ficção...</div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-header">
+                  <div class="card-header-title">
+                    <span class="card-title-style">Philosophy</span>
+                  </div>
+                </div>
+                <div class="card-content">Conteúdo sobre filosofia...</div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-header">
+                  <div class="card-header-title">
+                    <span class="card-title-style">Humor</span>
+                  </div>
+                </div>
+                <div class="card-content">Conteúdo sobre humor...</div>
+              </div>
+            </div>
+          </div>
         </section>
 
-        <div class="section-title">Math</div>
+        <div class="section-title rounded">Math</div>
         <section id="math">
-          <p>Mathematical concepts, articles, and problem-solving...</p>
+          <div class="columns">
+            <div class="column">
+              <div class="card">
+                <div class="card-header">
+                  <div class="card-header-title">
+                    <span class="card-title-style">Goldbach's Conjecture</span>
+                  </div>
+                </div>
+                <div class="card-content">Conteúdo sobre ficção...</div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-header">
+                  <div class="card-header-title">
+                    <span class="card-title-style">Image Processing</span>
+                  </div>
+                </div>
+                <div class="card-content">Conteúdo sobre filosofia...</div>
+              </div>
+            </div>
+          </div>
         </section>
 
-        <div class="section-title">Programming</div>
+        <div class="section-title rounded">Programming</div>
         <section id="programming">
-          <p>Insights into software development, coding, and technology...</p>
+          <div class="columns">
+            <div class="column">
+              <div class="card">
+                <div class="card-header">
+                  <div class="card-header-title">
+                    <span class="card-title-style">Hypatia</span>
+                  </div>
+                </div>
+                <div class="card-content">Conteúdo sobre ficção...</div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-header">
+                  <div class="card-header-title">
+                    <span class="card-title-style">Sokrates</span>
+                  </div>
+                </div>
+                <div class="card-content">Conteúdo sobre filosofia...</div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-header">
+                  <div class="card-header-title">
+                    <span class="card-title-style">Mentorship</span>
+                  </div>
+                </div>
+                <div class="card-content">Conteúdo sobre humor...</div>
+              </div>
+            </div>
+          </div>
         </section>
 
-        <div class="section-title">Students Area</div>
+        <div class="section-title rounded">Students Area</div>
         <section id="students-area">
-          <p>Resources and materials for my students...</p>
+          <div class="columns">
+            <div class="column is-4 is-offset-4">
+              <div class="card">
+                <div class="card-header">
+                  <div class="card-header-title">
+                    <span class="card-title-style">Login</span>
+                  </div>
+                </div>
+                <div class="card-content"></div>
+              </div>
+            </div>
+          </div>
         </section>
       </main>
 
