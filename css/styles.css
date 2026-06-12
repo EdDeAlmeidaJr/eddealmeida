@@ -142,3 +142,21 @@ nav {
 .rounded {
   border-radius: 0.5rem;
 }
+
+#islam {
+  display: flex;
+}
+
+.section-title {
+  background-color: #4a4a4a;
+  color: white;
+  font-family: "EB Garamond", serif;
+  font-size: 2rem; /* Corrigido de font-family para font-size */
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem; /* Espaço entre o título e o conteúdo */
+}
+
+section {
+  margin-bottom: 3rem;
+}
